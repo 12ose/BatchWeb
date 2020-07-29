@@ -1,0 +1,138 @@
+body{
+    
+    width: 100%;
+    height: 100%
+}
+
+
+h1{
+    font-family: 'Bungee Inline', cursive;
+    color:blue;
+    text-align: center;
+}
+h2{
+    font-family: 'Fredericka the Great', cursive;
+    text-align: center;
+}
+h3{
+    font-family: 'Fredericka the Great', cursive;
+    text-align: center;
+    text-decoration: underline;
+    font-size: x-large;
+    
+}
+h4{
+    text-align: center;
+}
+p{
+    font-family: 'Kaushan Script', cursive;
+    text-align: center;
+    padding-bottom: 5px;
+    font-size: 30px;
+}
+
+#header{
+    background-color: whitesmoke;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+
+.logo{
+    width:100px;
+    height: 100px;
+    padding-left: 46%;
+}
+.log{
+    width:30px;
+    height: 30px;
+    padding-left: 30%;
+}
+.intro{
+    background-image: url("intro.jpg");
+    background-size: cover;
+    background-color: rgba(255, 255, 255, 0.5);
+    color: white;
+    text-align: center;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 2px;
+    padding-bottom: 15px;
+}
+
+#navbar ul {
+    text-align:center;
+    background-color: black;
+    height:50px;
+
+    border-radius:6px;
+    font-size: 20px;
+    }
+    
+    .list{
+    padding-left:35px;
+    display:inline;
+    position:relative;
+    top:30%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY
+    }
+
+    a{  position: relative;
+        font-family:Arial;
+        text-decoration:none;
+        color: white;
+        font-size: 20px;
+        }
+    a:hover{
+        background-color:black;
+        color:white;
+        padding:3px;
+        border: 2px solid white;
+        border-radius:4px;
+        }
+
+    .stick{
+        position:sticky;
+        top:0;
+    }
+
+.syllabus{
+    background-image: url("ph.jpg");
+    margin-top: 10px;
+    color: white;
+    padding-top: 5px;
+    font-family: 'Special Elite', cursive;
+}
+
+.assignment{
+    background-image: url("ph1.jpg");
+    color: white;
+    padding-top: 15px;
+    margin-top: 10px;
+    font-family: 'Special Elite', cursive;
+}
+ol{
+    position: relative;
+    padding-left:40% ;
+    padding-bottom: 10px;
+}
+
+.contact{
+    background-color: black;
+    color: white;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 15%;
+
+}
+.footer{
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding-top: 4px;
+    margin-top: 10px;
+    padding-bottom: 0px;
+}
+
